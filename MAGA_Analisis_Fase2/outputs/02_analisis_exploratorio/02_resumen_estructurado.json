@@ -1,0 +1,52 @@
+{
+  "P1_evolucion": {
+    "Tomate": -10.95,
+    "Papa Loman": 210.68,
+    "Chile pimiento": 90.06
+  },
+  "P2_media_variacion_absoluta_pct": {
+    "Tomate": 27.53,
+    "Papa Loman": 13.32,
+    "Chile pimiento": 25.59
+  },
+  "P3_patrones_mensuales_medianos": {
+    "Tomate": [
+      "Dic",
+      21.5,
+      "Ene",
+      -29.1
+    ],
+    "Papa Loman": [
+      "Abr",
+      10.9,
+      "Ago",
+      -16.5
+    ],
+    "Chile pimiento": [
+      "Dic",
+      17.6,
+      "Ene",
+      -32.4
+    ]
+  },
+  "P4_mayor_variacion_observada": {
+    "producto": "Chile pimiento",
+    "mes": "2000-12",
+    "cambio_pct": 208.4
+  },
+  "relaciones_spearman": {
+    "Tomate / Papa Loman": 0.036,
+    "Tomate / Chile pimiento": 0.459,
+    "Papa Loman / Chile pimiento": 0.112
+  },
+  "agrupaciones": {
+    "k": 2,
+    "cantidad_producto_anios": 81
+  },
+  "limitaciones": [
+    "Precios nominales, sin ajuste de inflación",
+    "Unidades de venta distintas entre productos",
+    "No se utilizan variables de oferta, clima, demanda ni transporte",
+    "Patrones y clusters exploratorios; no implican causalidad o predicción"
+  ]
+}

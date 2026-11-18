@@ -1,0 +1,123 @@
+{
+  "proyecto": "MAGA - Análisis de Información - Fase 2",
+  "notebook": "03_modelado_predictivo.ipynb",
+  "origenes": [
+    "01_preparacion_datos.ipynb",
+    "02_analisis_exploratorio.ipynb"
+  ],
+  "csv_entrada": "data/prepared/maga_precios_mensuales_la_terminal_1998_2026.csv",
+  "sha256_entrada": "22f888afd168457a659017ab7609fa3267b6f81ce1102a8664167e72e3bf2402",
+  "origen_validado_notebook_01": true,
+  "coherencia_validada_notebook_02": true,
+  "registros_entrada": 1029,
+  "registros_modelables": 993,
+  "observaciones_por_producto": 343,
+  "mercado": "La Terminal",
+  "periodo": [
+    "1998-01",
+    "2026-07"
+  ],
+  "algoritmo": "scikit-learn LinearRegression (OLS)",
+  "regla_mismo_modelo": "Mismo algoritmo y mismos predictores para tres ajustes independientes",
+  "candidatos_configuraciones": {
+    "A · Reciente": [
+      "lag_1",
+      "lag_2",
+      "lag_3"
+    ],
+    "B · Reciente y anual": [
+      "lag_1",
+      "lag_2",
+      "lag_3",
+      "lag_12"
+    ],
+    "C · Calendario": [
+      "lag_1",
+      "lag_2",
+      "lag_3",
+      "lag_12",
+      "mes_sin",
+      "mes_cos"
+    ],
+    "D · Medio plazo": [
+      "lag_1",
+      "lag_2",
+      "lag_3",
+      "lag_6",
+      "lag_12",
+      "mes_sin",
+      "mes_cos"
+    ]
+  },
+  "seleccion_comun": "D · Medio plazo",
+  "predictores_finales": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_6",
+    "lag_12",
+    "mes_sin",
+    "mes_cos"
+  ],
+  "criterio_seleccion": "Media no ponderada de MAE_regresion / MAE_referencia en 3 productos x 2 folds; parsimonia con tolerancia +0.01",
+  "validacion_folds": [
+    {
+      "anio": 2022,
+      "entrenamiento_hasta": "2021-12",
+      "evaluacion_desde": "2022-01",
+      "evaluacion_hasta": "2022-12"
+    },
+    {
+      "anio": 2023,
+      "entrenamiento_hasta": "2022-12",
+      "evaluacion_desde": "2023-01",
+      "evaluacion_hasta": "2023-12"
+    }
+  ],
+  "evaluacion": {
+    "entrenado_hasta": "2023-12",
+    "inicio": "2024-01",
+    "fin": "2026-07",
+    "meses_por_producto": 31,
+    "horizonte_meses": 1,
+    "uso_rezagos_observados_durante_evaluacion": true,
+    "reajuste_de_coeficientes_durante_evaluacion": false
+  },
+  "pronostico_post_datos": "2026-08",
+  "versiones": {
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "sklearn": "1.6.1",
+    "joblib": "1.6.0"
+  },
+  "modelos_finales": [
+    "models/03_regresion_multiple_tomate.joblib",
+    "models/03_regresion_multiple_papa_loman.joblib",
+    "models/03_regresion_multiple_chile_pimiento.joblib"
+  ],
+  "salidas": [
+    "03_01_auditoria_integracion.csv",
+    "03_01_diseno_temporal.png",
+    "03_02_matriz_modelado.csv",
+    "03_02_validacion_configuraciones.png",
+    "03_03_comparacion_errores.png",
+    "03_03_validacion_por_producto_y_fold.csv",
+    "03_04_reales_vs_estimados_chile_pimiento.png",
+    "03_04_reales_vs_estimados_papa_loman.png",
+    "03_04_reales_vs_estimados_tomate.png",
+    "03_04_seleccion_comun.csv",
+    "03_05_predicciones_evaluacion.csv",
+    "03_05_residuos_cronologicos.png",
+    "03_06_coeficientes_regresion.csv",
+    "03_06_estimacion_mes_siguiente.png",
+    "03_07_metricas_evaluacion.csv",
+    "03_08_estabilidad_anual.csv",
+    "03_09_mayores_errores.csv",
+    "03_10_estimacion_agosto_2026.csv",
+    "03_manifiesto_resultados.json",
+    "03_sintesis_hallazgos.md"
+  ],
+  "limitacion_de_independencia": "El equipo había inspeccionado de forma preliminar el período 2024-2026 antes de formalizar esta regla.",
+  "criterio_sin_fuga": "Todas las entradas de cada mes se conocen antes del precio objetivo; coeficientes de evaluación fijados al cierre 2023."
+}

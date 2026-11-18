@@ -1,0 +1,16 @@
+﻿Producto_corto,Fecha,Medida,Precio_anterior,Precio,Cambio_Q,Cambio_pct,Cambio_atipico_robusto
+Chile pimiento,2000-12,Caja (90 -100 unidades),26.3,81.11,54.81,208.403,True
+Chile pimiento,1998-12,Caja (90 -100 unidades),56.54,136.67,80.13,141.7227,True
+Chile pimiento,2005-11,Caja (90 -100 unidades),57.69,131.92,74.23,128.6705,True
+Chile pimiento,2024-07,Caja (90 -100 unidades),127.25,268.98,141.73,111.3792,True
+Chile pimiento,2024-12,Caja (90 -100 unidades),63.0,131.88,68.88,109.3333,True
+Papa Loman,2023-10,Quintal,287.0,482.5,195.5,68.1185,True
+Papa Loman,2019-04,Quintal,177.86,279.12,101.26,56.9324,True
+Papa Loman,2010-04,Quintal,129.23,199.17,69.94,54.1206,False
+Papa Loman,2015-12,Quintal,124.17,190.0,65.83,53.016,False
+Papa Loman,1998-08,Quintal,147.86,71.92,-75.94,-51.3594,False
+Tomate,2007-08,Caja (45 - 50 lb),45.0,119.23,74.23,164.9556,True
+Tomate,2000-02,Caja (45 - 50 lb),20.5,53.33,32.83,160.1463,True
+Tomate,2024-07,Caja (45 - 50 lb),159.75,374.55,214.8,134.4601,True
+Tomate,2010-01,Caja (45 - 50 lb),84.0,196.82,112.82,134.3095,True
+Tomate,1998-11,Caja (45 - 50 lb),53.33,117.5,64.17,120.3263,True

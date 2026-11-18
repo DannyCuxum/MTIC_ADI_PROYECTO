@@ -1,0 +1,4 @@
+﻿Producto,Unidad,Fecha_pronosticada,Ultimo_mes_observado,Ultimo_precio_observado_Q,Precio_estimado_Q,Datos_reales_del_mes_objetivo,Horizonte_meses
+Tomate,Caja (45 - 50 lb),2026-08-01,2026-07-01,120.22000000,140.48907972,No disponibles en el CSV,1
+Papa Loman,Quintal,2026-08-01,2026-07-01,401.30000000,347.39190212,No disponibles en el CSV,1
+Chile pimiento,Caja (90 -100 unidades),2026-08-01,2026-07-01,133.04000000,120.93382521,No disponibles en el CSV,1

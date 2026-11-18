@@ -1,0 +1,33 @@
+{
+  "proyecto": "MAGA - Análisis de información - Fase 2",
+  "fuente": "MAGA, Sistema de Información de Mercados, datos abiertos mensuales CSV",
+  "portal": "https://precios.maga.gob.gt/otros/datos-abiertos/",
+  "zip_original": "Precios mensuales de diversos productos agrícolas en Guatemala a octubre 2026 CSV.zip",
+  "csv_original": "Precios mensuales de diversos productos agrícolas en Guatemala a octubre 2026.csv",
+  "sha256_zip": "7ef81490e63adc7dc55463d91fe2ed0f9bcb3b0b85cef3179bc95ca61dbc5cbe",
+  "sha256_csv": "27daa29fb600a0a85500629b814b1a5c65f9a96d68679ac59dae5a7b19330410",
+  "sha256_csv_preparado": "22f888afd168457a659017ab7609fa3267b6f81ce1102a8664167e72e3bf2402",
+  "periodo_inicio": "1998-01",
+  "periodo_fin": "2026-07",
+  "mercado": "La Terminal",
+  "productos_y_medidas": {
+    "Tomate de cocina, grande, de primera": "Caja (45 - 50 lb)",
+    "Papa Loman, lavada, grande, de primera": "Quintal",
+    "Chile Pimiento, grande, de primera": "Caja (90 -100 unidades)"
+  },
+  "filas_originales": 45622,
+  "filas_preparadas": 1029,
+  "registros_por_producto": {
+    "Chile Pimiento, grande, de primera": 343,
+    "Papa Loman, lavada, grande, de primera": 343,
+    "Tomate de cocina, grande, de primera": 343
+  },
+  "acciones": [
+    "Lectura del CSV original desde ZIP",
+    "Caracterización y auditoría del conjunto completo",
+    "Filtro por alcance Fase 1 y medida comercial",
+    "Verificación de calendario y precios",
+    "Tipificación de fechas y creación de Año/Mes/Período"
+  ],
+  "tratamiento_precio": "Sin imputación, redondeo o modificación del valor de origen"
+}

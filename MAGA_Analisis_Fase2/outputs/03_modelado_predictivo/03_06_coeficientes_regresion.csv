@@ -1,0 +1,25 @@
+﻿Producto,Variable,Coeficiente
+Tomate,Intercepto,39.00297010
+Tomate,lag_1,0.82215285
+Tomate,lag_2,-0.35622233
+Tomate,lag_3,0.15419467
+Tomate,lag_6,0.09259802
+Tomate,lag_12,-0.07051565
+Tomate,mes_sin,-7.05887217
+Tomate,mes_cos,-1.21137684
+Papa Loman,Intercepto,12.43649929
+Papa Loman,lag_1,0.90126750
+Papa Loman,lag_2,0.00530835
+Papa Loman,lag_3,-0.13243968
+Papa Loman,lag_6,0.20912544
+Papa Loman,lag_12,-0.04895374
+Papa Loman,mes_sin,10.29733558
+Papa Loman,mes_cos,9.65739257
+Chile pimiento,Intercepto,34.58726342
+Chile pimiento,lag_1,0.78973726
+Chile pimiento,lag_2,-0.14763951
+Chile pimiento,lag_3,0.02679887
+Chile pimiento,lag_6,-0.10547564
+Chile pimiento,lag_12,0.03198772
+Chile pimiento,mes_sin,-1.12804002
+Chile pimiento,mes_cos,-1.22129714

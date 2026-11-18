@@ -1,0 +1,12 @@
+﻿Campo,Descripción,Tipo,Rol
+Actor,Actor relacionado con el registro de precio,Texto,Control
+Periodicidad,Frecuencia de publicación de la observación,Texto,Control
+Mercado,Mercado en el que se registra el precio,Texto,Filtro
+Producto,Denominación y categoría comercial del producto,Texto,Identificación
+Medida,Presentación o unidad de comercialización,Texto,Control
+Fecha,Fecha correspondiente al registro,Fecha,Temporal
+Moneda,Moneda en que se expresa el precio,Texto,Control
+Precio,Precio registrado en la unidad comercial indicada,Numérico,Variable de interés
+Anio,"Año del registro, derivado de Fecha",Entero,Auxiliar temporal
+Mes,"Mes calendario, derivado de Fecha",Entero,Auxiliar temporal
+Periodo,Año y mes del registro en formato AAAA-MM,Texto,Auxiliar temporal

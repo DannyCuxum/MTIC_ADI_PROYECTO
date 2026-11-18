@@ -1,0 +1,4 @@
+﻿Producto,Medida,Registros,Meses esperados,Meses ausentes,Duplicados,Precios faltantes,Precios ≤ 0,Fechas inválidas,Fechas fuera del día 1,Resultado
+"Tomate de cocina, grande, de primera",Caja (45 - 50 lb),343,343,0,0,0,0,0,0,APROBADO
+"Papa Loman, lavada, grande, de primera",Quintal,343,343,0,0,0,0,0,0,APROBADO
+"Chile Pimiento, grande, de primera",Caja (90 -100 unidades),343,343,0,0,0,0,0,0,APROBADO

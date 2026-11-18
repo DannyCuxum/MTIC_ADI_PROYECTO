@@ -1,0 +1,49 @@
+{
+  "notebook": "02_analisis_exploratorio.ipynb",
+  "origen": "01_preparacion_datos.ipynb",
+  "csv_entrada": "data/prepared/maga_precios_mensuales_la_terminal_1998_2026.csv",
+  "sha256_entrada": "22f888afd168457a659017ab7609fa3267b6f81ce1102a8664167e72e3bf2402",
+  "filas": 1029,
+  "productos": [
+    "Tomate",
+    "Papa Loman",
+    "Chile pimiento"
+  ],
+  "periodo": [
+    "1998-01-01",
+    "2026-07-01"
+  ],
+  "salidas": [
+    "02_01_estadisticas_precios.csv",
+    "02_01_evolucion_historica.png",
+    "02_02_distribucion_y_frecuencia.png",
+    "02_02_variabilidad_mensual.csv",
+    "02_03_estacionalidad_por_mes.csv",
+    "02_03_intensidad_historica.png",
+    "02_04_estacionalidad_exploratoria.png",
+    "02_04_estacionalidad_subperiodos.csv",
+    "02_05_estacionalidad_subperiodos.png",
+    "02_05_principales_fluctuaciones.csv",
+    "02_06_atipicos_por_producto.csv",
+    "02_06_mayores_fluctuaciones.png",
+    "02_07_correlaciones_spearman.csv",
+    "02_07_relaciones_entre_productos.png",
+    "02_08_agrupacion_producto_anio.png",
+    "02_08_seleccion_numero_grupos.csv",
+    "02_09_grupos_producto_anio.csv",
+    "02_10_perfiles_de_grupo.csv",
+    "02_manifiesto_resultados.json",
+    "02_resumen_estructurado.json",
+    "02_sintesis_hallazgos.md"
+  ],
+  "bibliotecas": {
+    "pandas": "2.2.3"
+  },
+  "criterios": {
+    "umbral_var_alta_pct": 20,
+    "criterio_atipico": "MAD normalizada >3.5",
+    "cluster_k": 2,
+    "random_state": 42,
+    "serie_futura_anticipada": false
+  }
+}
